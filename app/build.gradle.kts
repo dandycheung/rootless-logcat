@@ -13,8 +13,8 @@ android {
         applicationId = "com.tananaev.logcat"
         minSdk = 23
         targetSdk = 37
-        versionCode = 17
-        versionName = "2.3"
+        versionCode = 18
+        versionName = "2.4"
     }
 
     signingConfigs {
@@ -49,10 +49,6 @@ android {
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
-    }
-
-    kotlinOptions {
-        jvmTarget = JavaVersion.VERSION_17.toString()
     }
 
     lint {
